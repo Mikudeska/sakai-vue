@@ -6,7 +6,7 @@ import AppMenuItem from './AppMenuItem.vue';
 const model = ref([
     {
         label: 'Home',
-        items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
+        items: [{ label: 'Dashboard', icon: 'material-symbols:home', to: '/' }]
     },
     {
         label: 'UI Components',
@@ -16,7 +16,7 @@ const model = ref([
             // { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', to: '/uikit/formlayout' },
             // { label: 'Input', icon: 'pi pi-fw pi-check-square', to: '/uikit/input' },
             // { label: 'Button', icon: 'pi pi-fw pi-mobile', to: '/uikit/button', class: 'rotated-icon' },
-            { label: 'Table', icon: 'pi pi-fw pi-table', to: '/uikit/table' },
+            { label: 'Table', icon: 'pi pi-fw pi-table', to: '/uikit/table' }
             // { label: 'List', icon: 'pi pi-fw pi-list', to: '/uikit/list' },
             // { label: 'Tree', icon: 'pi pi-fw pi-share-alt', to: '/uikit/tree' },
             // { label: 'Panel', icon: 'pi pi-fw pi-tablet', to: '/uikit/panel' },
@@ -65,7 +65,7 @@ const model = ref([
                 label: 'Crud',
                 icon: 'pi pi-fw pi-pencil',
                 to: '/pages/crud'
-            },
+            }
             // {
             //     label: 'Not Found',
             //     icon: 'pi pi-fw pi-exclamation-circle',
@@ -77,7 +77,7 @@ const model = ref([
             //     to: '/pages/empty'
             // }
         ]
-    },
+    }
     // {
     //     label: 'Hierarchy',
     //     items: [
